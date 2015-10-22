@@ -1,0 +1,84 @@
+.row {
+    width: 100%;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #40a;
+    font-weight: 400;
+}
+footer {
+    text-align: center;
+    font-size: 4vw;
+}
+img {
+    transition: width 0.5s;
+    width: 100vw;
+}
+.right-margin-fix {
+    margin-right: -30px;
+}
+.title-name {
+    font-size: 3vw;
+    text-align: right;
+}
+s .title-tag {
+    text-align: right;
+    font-size: 2vw;
+}
+.title-logo {
+    margin-top: 15px;
+}
+.logo-img {
+    max-height: 100px;
+    max-width: 100px;
+}
+.main-img {
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-muted {
+    color: #20a;
+}
+.text-thin {
+    font-weight: 100;
+}
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+.text-just {
+    text-align: justify;
+}
+.my_social {
+    width: 10vw;
+    margin: 5vw;
+}
+@media screen and (min-width: 992px) {
+    footer {
+        font-size: 1.5vw;
+    }
+    .title-name {
+        font-size: 3vw;
+        text-align: right;
+    }
+    .title-tag {
+        text-align: right;
+        font-size: 2vw;
+    }
+    .app-label {
+        height: 60px;
+    }
+    .app-desc {
+        height: 280px;
+    }
+    .app-container {
+        margin-bottom: 10px;
+    }
+    .app-addlink {
+        height: 20px;
+    }
+}

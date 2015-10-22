@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://fonts.googleapis.com/css?family=Roboto:400,100,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <title> My Portfolio</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="right-margin-fix">
+            <div class="row title-block">
+                <div class="col-md-4 title-logo">
+                    <img class="logo-img" src="images/c.jpg" alt="logo">
+                </div>
+                <div class="col-md-8 text-uppercase text-right">
+                    <h1 class="text-thin title-name ">Corey T. Willinger</h1>
+                    <h3 class="title-tag">Wannabe Web Dev Guru (in training...)</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <img class="img-responsive main-img" src="images/background900.jpg" srcset="images/background1900.jpg 1900w, images/background1200.jpg 1200w, images/background900.jpg 900w, images/background450.jpg 450w" sizes="100vw" alt="image of cave">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 text-muted">
+                    <hr>
+                    <h2>Featured Work</h2>
+                    <hr>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-6 app-container">
+                    <img src="images/unityACO_sq_250.jpg" srcset="images/unityACO_sq_250.jpg 250w, images/unityACO_sq_500.jpg 500w, images/unityACO_sq_1000.jpg 1000w" sizes="(min-width:992px) 33.3vw, 100vw" class="img-responsive app-pic" alt="Unity Ant Colony MANET Optimization Project">
+                    <h3 class="text-uppercase app-label">Unity 3D Ant Colony Optimization Project</h3>
+                    <p><a href="https://github.com/corigami/Simulator" target="_blank">Fork me on Git</a></p>
+                    <p class="text-just app-desc">This is a project that I worked on for my advanced algorithms class. It was creates created in Unity 3d and written with C#. It demonstrates the usage of an Ad hoc On-demand Distance Vector (AODV) routing protocol, as well as an Ant Colony Optimization and a Genetic algorithm to produce a minimally connected dominated set (MCDS) of nodes to be utilized in a mobile ad-hoc network. Network traffic is notional, and is abstracted to just send/receive mechanics (no OSI stack, headers, etc).</p>
+                    <p class="app-addlink"></p>
+                    <hr>
+                </div>
+                <div class="col-md-6 app-container">
+                    <img src="images/OMnet_sq_250.jpg" srcset="images/OMnet_sq_500.jpg 500w, images/OMnet_sq_250.jpg 250w,images/OMnet_sq_1000.jpg 1000w" sizes="(min-width:992px) 33.3vw, 100vw" class="img-responsive app-pic" alt="Thesis Work - OMNet MANET Simulation">
+                    <h3 class="text-uppercase app-label">OMNet Simulation</h3>
+                    <p><a href="https://github.com/corigami/thesis_orion_omnet" target="_blank">Fork me on Git</a></p>
+                    <p class="text-just app-desc">This is the simulation that was produced as part of my Master's Thesis examining the impact of file replication in a UAV swarm utilizing reactive MANET protocols. The simulation was produced utilizing OMNeT++ v4.6 and is written in C++. It simulates a swarm of UAVs generating files at a variable rate and replicates them using a implementation of the ORION transfer protocol for MANETS. A master node then queries the swarm for random files and logs the data. A copy of the thesis can be found at the link below.</p>
+                    <p class="app-addlink"><a href="http://www.dtic.mil/docs/citations/ADA615415" target="_blank">M.S. C.S. Thesis - Effects of Data Replication on Data Exfiltration in Mobile Ad Hoc Networks Utilizing Reactive Protocols</a></p>
+                    <hr>
+                </div>
+                <div class="col-md-6 app-container">
+                    <img src="images/cdcTester_sq_250.jpg" srcset="images/cdcTester_sq_250.jpg 250w, images/cdcTester_sq_500.jpg 500w" sizes="(min-width:992px) 33.3vw, 100vw" class="img-responsive app-pic" alt="Career Development Course Tester">
+                    <h3 class="text-uppercase app-label">CDC Tester</h3>
+                    <p><a href="https://github.com/corigami/CDC_Test" target="_blank">Fork me on Git</a></p>
+                    <p class="text-just app-desc">If you want an example of bad code, look no further! This was written in my early undergraduate days before I had any clue what I was doing. I did manage to produce a text parser to read in pre-formated text. Sadly, after 10 years of use, this program is still being used by some work-centers in my old Avionics career field. It implements random ordering of questions and answers and produces a text report output.</p>
+                    <p class="app-addlink"></p>
+                    <hr>
+                </div>
+                <div class="col-md-6 app-container">
+                    <img src="images/frogger_sq_250.jpg" srcset="images/frogger_sq_250.jpg 250w, images/frogger_sq_500.jpg 500w,images/frogger_sq_750.jpg 750w" sizes="(min-width:992px) 33.3vw, 100vw" class="img-responsive app-pic" alt="Arcade Game Clone">
+                    <h3 class="text-uppercase app-label">Arcade Game Clone</h3>
+                    <p><a href="https://github.com/corigami/frontend-nanodegree-arcade-game" target="_blank">Fork me on Git</a></p>
+                    <p class="text-just app-desc">This was an assignment for the Udacity Front-End Web Developemnt Nanodegree. The purpose was to showcase Object Oriented Programming in JavaScript. It was useful to see how OOP worked in JavaScript versus other languages that I was used to such as C++ and Java. Hopefully I'll get around to adding more functionality as time permits, but in its current state it has a working movement controller, collision detection with enemies and obstacles and level progression.</p>
+                    <p class="app-addlink"><a href="http://www.gamisweb.com/frogger/" target="_blank">Frogger Clone on Gamisweb </a></p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>
+                        View my profile on:
+                        <br>
+                        <a href="https://plus.google.com/+CoreyWillinger/posts" target="_blank">
+                            <img src="images/80-google-plus.svg" class="my_social" alt="Google+ Profile">
+                        </a>
+                        <a href="https://www.linkedin.com/pub/corey-willinger/69/799/20b" target="_blank">
+                            <img src="images/51-linkedin.svg" class="my_social" alt="LinkedIn Profile">
+                        </a>
+                        </h3>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+
+</html>
